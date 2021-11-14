@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Shopping List </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  
+  <script src="client.js"></script>
+  <script src="Shopping.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header" >
+   
+      <a class="navbar-brand" href="#">  </a>
+    </div>
+    <ul class="nav navbar-nav"></ul>
+      <ul class="dropdown-menu">
+        </ul>
+  </div>
+</nav>
+
+<div class="list">
+  List lovers rejoice! Shopping list keeps all your lists in one place.
+</div>
+<div class="star">
+  No more sticky notes and scraps of paper, no more return trips to the grocery store. With Shopping list, the whole family can see and manage shopping lists from any computer.
+</div>
+<br><br><br>
+<div class="container">
+  <img style="float: left"; src = "images/hero.png" alt="phone" width="550px" height="1000px">
+  <br><br><br><br><br><br>
+  <div class="text">
+    The best way to create and share a grocery shopping list and organize your recipes.
+    <br><br><br>
+    - QUICKLY CREATE ORGANIZED LISTS-<br>
+   AnyList suggests common items as you type, 
+   and automatically groups items by category to help save time at the store.
+   <br><br><br>
+   - EASILY SHARE LISTS-<br>
+   Stay in sync with family and friends by sharing a list with them. Any changes made to a shared list will show up instantly to everyone sharing the list.
+   <br><br><br>
+   - PLAN YOUR SHOPPING-<br>
+  Simply tap on ingredients to add them to your shopping list, or plan for an entire week or month 
+  </div>
+</div>
+<h3 style="text-align: center;">With shopping list you can..</h3>
+
+<div class="pic">
+  <img src="images/phn.png" alt="web" style="width:400px;height:400px;"/>
+
+  Add your items to the shopping list.In the options below, add your shopping item with exact date and 
+  time to remember easily.Use the Add button.
+
+</div>
+
+<h2>Add Items</h2>
+<p> <!-- Form to add shopping list -->
+    Item: <input  style="text-align: center;" type="text" id="ItemInput" placeholder="Enter your item"><br><br>
+    Time: <input type="time" id="TimeInput"><br><br>
+    Date: <input type="date" id="DateInput"><br><br>
+    <button onclick="addUser()"> Add </button>
+
+</p>
+
+<p id="AddUserResult"></p>
+<br>
+<br>
+<br>
+<h2>Items List</h2>
+<div>
+  <div id="UserDiv"></div>
+</div>
+<br>
+<br>
+   
+<div id="mocha"></div>
+
+<script class="mocha-init">
+  /* Initialize Mocha. 'bdd' stands for "behavior driven development" */
+  mocha.setup('bdd');
+</script>
+
+
+
+<!-- Run the tests -->
+<script type='module' class="mocha-exec">
+  mocha.run();
+</script>
+<footer>
+  <ul>
+  <p>Contact us: <a href="mailto:manubasra96@gmail.com">manubasra96@gmail.com</a></p>
+   <p> © 2021 Shopping List</p>
+  </ul>
+</footer>
+</body>
+</html>
+
+
