@@ -1,0 +1,131 @@
+{
+  "id": "f9a50b3f-5896-4206-bc74-b4019ae6f507",
+  "version": "2.0",
+  "name": "testing",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "bb420fa5-bc9c-40d7-9172-1a1cebd7daca",
+    "name": "test6",
+    "commands": [{
+      "id": "ded0d0bf-a224-466f-b361-7c7eb1ac230b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8247bd86-57d1-49a1-bc80-54a82eef4cf5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "984x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daa3aeb1-3c5c-4197-944d-0707cf26aca0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ItemInput",
+      "targets": [
+        ["id=ItemInput", "id"],
+        ["css=#ItemInput", "css:finder"],
+        ["xpath=//input[@id='ItemInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce41a302-be38-4ab2-8713-586302eb3b7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ItemInput",
+      "targets": [
+        ["id=ItemInput", "id"],
+        ["css=#ItemInput", "css:finder"],
+        ["xpath=//input[@id='ItemInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Butter"
+    }, {
+      "id": "457eb375-c993-44b2-a5e8-56044da64ec4",
+      "comment": "",
+      "command": "click",
+      "target": "id=TimeInput",
+      "targets": [
+        ["id=TimeInput", "id"],
+        ["css=#TimeInput", "css:finder"],
+        ["xpath=//input[@id='TimeInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1723343-ec4e-454c-bf88-bcd4537f5b15",
+      "comment": "",
+      "command": "type",
+      "target": "id=TimeInput",
+      "targets": [
+        ["id=TimeInput", "id"],
+        ["css=#TimeInput", "css:finder"],
+        ["xpath=//input[@id='TimeInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "04:25"
+    }, {
+      "id": "39bc771a-8534-483d-a9f1-76bd95743004",
+      "comment": "",
+      "command": "click",
+      "target": "id=DateInput",
+      "targets": [
+        ["id=DateInput", "id"],
+        ["css=#DateInput", "css:finder"],
+        ["xpath=//input[@id='DateInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0cfcb5-7780-49da-a8b7-1ca347cbaae0",
+      "comment": "",
+      "command": "type",
+      "target": "id=DateInput",
+      "targets": [
+        ["id=DateInput", "id"],
+        ["css=#DateInput", "css:finder"],
+        ["xpath=//input[@id='DateInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2021-03-16"
+    }, {
+      "id": "5f13c331-5bb7-472d-acea-53870ee4d714",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addUser()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1bb0b83-3b13-4b0e-8b59-298ed90dc048",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='UserDiv']/table/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Test-Milk')]", "xpath:innerText"]
+      ],
+      "value": "Test-Milk"
+    }]
+  }],
+  "suites": [{
+    "id": "83c581b3-4da5-4ef5-bba0-187f196e4234",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bb420fa5-bc9c-40d7-9172-1a1cebd7daca"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

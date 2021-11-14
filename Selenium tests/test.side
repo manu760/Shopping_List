@@ -1,0 +1,21 @@
+{
+  "id": "b1100bc3-8062-442b-8cbd-a847b573653c",
+  "version": "2.0",
+  "name": "test",
+  "url": "",
+  "tests": [{
+    "id": "64530378-992e-4700-b677-4f1cac54f8ff",
+    "name": "test",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "cebfea1e-9393-4501-8e4a-54af102fe868",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64530378-992e-4700-b677-4f1cac54f8ff"]
+  }],
+  "urls": [],
+  "plugins": []
+}

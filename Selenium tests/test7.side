@@ -1,0 +1,185 @@
+{
+  "id": "a4b92aae-0248-4fbf-82e3-30c29d8e3fad",
+  "version": "2.0",
+  "name": "test7",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "5206cab7-572b-4c13-9388-280c2a09fe01",
+    "name": "test7",
+    "commands": [{
+      "id": "26674399-75fb-49fb-9233-2cb104b22a7e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "578d393d-f3cd-42a1-b001-fa0efc134ea3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "984x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "843e9fff-82a2-49a6-9063-4af6c0a4c67c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ItemInput",
+      "targets": [
+        ["id=ItemInput", "id"],
+        ["css=#ItemInput", "css:finder"],
+        ["xpath=//input[@id='ItemInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65838dd3-8516-43ec-8890-466db8628ef6",
+      "comment": "",
+      "command": "type",
+      "target": "id=ItemInput",
+      "targets": [
+        ["id=ItemInput", "id"],
+        ["css=#ItemInput", "css:finder"],
+        ["xpath=//input[@id='ItemInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Drinks"
+    }, {
+      "id": "da887d7b-c892-4c60-a395-75e15d3d1ae6",
+      "comment": "",
+      "command": "click",
+      "target": "id=TimeInput",
+      "targets": [
+        ["id=TimeInput", "id"],
+        ["css=#TimeInput", "css:finder"],
+        ["xpath=//input[@id='TimeInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1301dba4-9aca-470f-a288-91532c9553f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=TimeInput",
+      "targets": [
+        ["id=TimeInput", "id"],
+        ["css=#TimeInput", "css:finder"],
+        ["xpath=//input[@id='TimeInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28019008-df44-4970-a9ad-51e043f408c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=TimeInput",
+      "targets": [
+        ["id=TimeInput", "id"],
+        ["css=#TimeInput", "css:finder"],
+        ["xpath=//input[@id='TimeInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "10:02"
+    }, {
+      "id": "c9533e4d-6cb3-4db3-b184-05a15ebfbe05",
+      "comment": "",
+      "command": "click",
+      "target": "id=DateInput",
+      "targets": [
+        ["id=DateInput", "id"],
+        ["css=#DateInput", "css:finder"],
+        ["xpath=//input[@id='DateInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3795e8-4a4b-48fb-80da-f2cd90d8cefb",
+      "comment": "",
+      "command": "type",
+      "target": "id=DateInput",
+      "targets": [
+        ["id=DateInput", "id"],
+        ["css=#DateInput", "css:finder"],
+        ["xpath=//input[@id='DateInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2021-03-17"
+    }, {
+      "id": "4ccdca04-4d2d-4cd3-afbf-eeedb5a1e3b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addUser()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "292c9c90-e92b-4629-aaf3-749b0400bbd3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "857,3339"
+    }, {
+      "id": "69a7e86f-fe8d-465e-968e-dcbc6cb8ab4f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "857,3339"
+    }, {
+      "id": "7401eb53-b7b4-47b5-9bd7-f9dcf7198671",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "857,3339"
+    }, {
+      "id": "4569d584-addc-4d4b-a655-5b3ecd4cbd76",
+      "comment": "",
+      "command": "click",
+      "target": "id=ItemInput",
+      "targets": [
+        ["id=ItemInput", "id"],
+        ["css=#ItemInput", "css:finder"],
+        ["xpath=//input[@id='ItemInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e5ee5c-d851-487a-97c3-9e184cad96b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addUser()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": "Add"
+    }]
+  }],
+  "suites": [{
+    "id": "7a054a3c-861b-4c4e-a806-8be6e96448df",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5206cab7-572b-4c13-9388-280c2a09fe01"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
