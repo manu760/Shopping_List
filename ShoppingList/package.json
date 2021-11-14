@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "database": "^0.0.2",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "mysql": "^2.18.1"
+  },
+  "name": "coursework3",
+  "version": "1.0.0",
+  "main": "Shopping.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
